@@ -8,7 +8,9 @@ dependencies:
   - pylint
   - pip
   - pip:
-      - mlflow
+      - azureml-inference-server-http
+      - azureml-ai-monitoring
+      - mlflow=2.17.2
       - cloudpickle==1.6.0
       - scikit-learn==0.24.2
       - flask==1.1.2
